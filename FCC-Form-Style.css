@@ -1,0 +1,124 @@
+.background{
+    background-image: url("fondo.jpg");
+    text-align: center;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    
+}
+.container{
+    background-color: blanchedalmond;
+    width: 75%;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 3.125rem auto 0 auto;
+}
+
+.font{
+    font-size: 24px;
+    line-height: 2;
+
+}
+
+.font-p{
+    font-size: 22px;
+    background-color: rgb(255, 181, 162);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    border  : 10px;
+    padding : 0 20px;
+    margin  : 0;
+    height: 30px;
+   border-radius: 20px;
+   font-size: 16px;
+   
+}
+
+.selected{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(241, 143, 113);
+    padding: 10px;
+    margin: 20px;
+    border-color: burlywood;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.style-radius{
+    display: block;
+    align-items: left;
+    position: relative;
+    top: 5px;
+    bottom: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    line-height: 2%;
+}
+
+input[type="radio"]{
+    width: 1.15em;
+  height: 1.15em;
+  border: 0.15em;
+  border-radius: 0.15em;
+}
+
+.style-check{
+    display: block;
+    align-items: justify;
+    position: relative;
+    top: 5px;
+    bottom: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    
+}
+
+input[type="checkbox"]{
+    width: 1.15em;
+  height: 1.15em;
+  border: 0.15em;
+  border-radius: 0.15em;
+  
+}
+
+.textarea{
+    display: block;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    bottom: 5px;
+    left: 350px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 20px;
+    border-color: rgb(241, 122, 86);
+    
+}
+
+.sub-button{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(241, 143, 113);
+    padding: 10px;
+    margin: 20px;
+    border-color: rgb(241, 122, 86);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    top: 40px;
+}
+

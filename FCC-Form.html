@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinotest</title>
+    <link rel="stylesheet" href="FCC-Form-Style.css">
+     
+</head>
+<body class="background">
+<div class="container">
+  <h1  id="title">Bienvenidos al Dinotest!</h1>
+  <p id="description" class="font">Esto es un pequeño test sobre el T-Rex!</p>
+  <p class="font-p">Primero completa tus datos</p>
+  <form id="survey-form" action="" >
+ <div>
+    <label for="name" id="name-label" class="font"> Name
+      <input id="name" type="text" placeholder="Enter your name" required>
+    </label>
+  </div>
+  <div>
+    <label for="email" id="email-label" class="font"> Email
+       <input id="email type="email" placeholder="Enter your email" required>
+    </label>
+   </div>
+   <div>
+    <label for="number" id="number-label" class="font"> Age 
+       <input id="number" type="number" placeholder="Age" min="12" max="99" required>
+    </label>
+   </div>
+   <div>
+      <p class="font-p">¿Qué tanto sabes acerca del T-Rex?</p>
+      <select class="selected" name="Conocer" id="dropdown" style="width:200px">
+         <option value="Elije una opción">Elije una opción</option>
+          <option value="Mucho">Mucho</option>
+          <option value="No tanto">No tanto</option>
+          <option value="Poco">Poco</option>
+          <option value="Nada">Nada</option>
+      </select>
+   </div>
+   <div>
+      <p class="font-p">Te consideras un experto en dinosaurios?</p>
+      <label for="Hola" class="style-radius"><input type="radio" name="saludo" id="Hola" value=""> Definitivamente</label>
+      <label for="Hola" class="style-radius"> <input type="radio" name="saludo" id="Hola" value=""> Tal vez</label>
+      <label for="Hola" class="style-radius"> <input type="radio" name="saludo" id="Hola" value=""> No lo creo</label>
+
+   </div>
+
+   <div>
+      <p class="font-p">Es hora del test! Elije la opción correcta</p>
+      
+     
+      <label for="Hola" class="style-check"> <input type="checkbox" name="saludo" id="Hola" value=""> El T-Rex vivió durante el período Jurasico <span class="style-check"></span></label>
+      <label for="Hola" class="style-check">  <input type="checkbox" name="saludo" id="Hola" value=""> Era un dinosaurio que se alimentaba solo de peces <span class="style-check"></span></label>
+      <label for="Hola" class="style-check"><input type="checkbox" name="saludo" id="Hola" value=""> Fue descubierto en el año 1874 <span class="style-check"></span></label>
+      <label for="Hola" class="style-check"><input type="checkbox" name="saludo" id="Hola" value=""> El T-Rex vivió durante el período Cretácico <span class="style-check"></span></label>
+      <label for="Hola" class="style-check"><input type="checkbox" name="saludo" id="Hola" value=""> Hay más de 100 especímenes descubiertos <span class="style-check"></span></label>
+      <label for="Hola" class="style-check"><input type="checkbox" name="saludo" id="Hola" value=""> El primer fósil fue descubierto en Colorado <span class="style-check"></span></label>
+      <label for="Hola" class="style-check"><input type="checkbox" name="saludo" id="Hola" value=""> Era un dinosaurio carnivoro y probablemente carroñero <span class="style-check"></span></label>
+      <label for="Hola" class="style-check"><input type="checkbox" name="saludo" id="Hola" value=""> Originalmente fue llamado Dynamosaurus imperiosus <span class="style-check"></span></label>
+      
+   </div>
+
+   <div>
+    <p for="opinion" class="font-p"> Que piensas del test?</p>
+
+    <textarea id="opinion" name="opinion-test" rows="5" cols="33" class="textarea">
+     Escribe aqui :)
+    </textarea>
+   </div>
+
+   <button type="submit" class="sub-button">Submit</button>
+
+
+  </form>
+ </div>
+</body>
+</html>
